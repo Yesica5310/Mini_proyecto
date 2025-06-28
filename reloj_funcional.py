@@ -235,7 +235,7 @@ class AdvancedClock:
     def reproducir_alarma(self):
         if not self.alarma_sonando:
             try:
-                mixer.music.load("Alarma_audio.mp3")
+                mixer.music.load("audio.mp3/Alarma_audio.mp3")
                 mixer.music.play(loops=3)
                 self.alarma_sonando = True
                 self.boton_detener.pack(pady=5)
