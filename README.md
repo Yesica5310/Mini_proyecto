@@ -186,7 +186,8 @@ tkinder-reloj/
 **Proyecto desarrollado por el equipo TechKinder:**
 
 * 🎨 **Interfaz**: Todos
-* 🕒 **Reloj Digital**: Paola Yesica Lezcano, Sheila Sanchez
+* 🕒 **Reloj Digital**: Sheila Sanchez
+* 🕒 **Reloj Analogico**: Paola Yesica Lezcano
 * ⏰ **Despertador**: Nicolas Tomadin
 * ⏱️ **Cronómetro**: Daniel Acevedo
 * 🧪 **Pruebas**: Paola Yesica Lezcano, Marcelo Ojeda
