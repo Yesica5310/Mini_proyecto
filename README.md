@@ -1,8 +1,6 @@
 # Mini_proyecto
 Proyecto tkinter, modelo de reloj digital
 
-# mini_proyecto
-Proyecto tkinter, modelo de reloj digital
 
 # 🕒 TKinder Reloj
 
@@ -56,10 +54,10 @@ Proyecto tkinter, modelo de reloj digital
 git clone https://github.com/Yesica5310/Mini_proyecto.git
 cd Reloj Funcional
 pip install -r requirements.txt
-python main.py
+python reloj_funcional.py
 
 🧩 Estructura del código
-main.py: Punto de entrada principal
+reloj_funcional.py: Punto de entrada principal
 # 🕒 TKinder Reloj
 
 ![Vista del reloj](reloj.png)
@@ -116,7 +114,7 @@ main.py: Punto de entrada principal
 * Tkinter (incluido por defecto en Python)
 
 ```bash
-pip install pytz
+pip install pygame
 ```
 
 ---
@@ -126,15 +124,14 @@ pip install pytz
 ```bash
 git clone https://github.com/Yesica5310/Mini_proyecto.git
 cd Reloj Funcional
-pip install -r requirements.txt
-python main.py
+python reloj_funcional.py
 ```
 
 ---
 
 ## ▶️ Uso
 
-* **Ejecutar la app:** `python main.py`
+* **Ejecutar la app:** `python reloj_funcional.py`
 * Cambiar entre pestañas de reloj, cronómetro y despertador.
 * Usar botones en cronómetro para iniciar, pausar y registrar laps.
 * En el despertador, seleccionar hora y guardar; se puede activar/desactivar.
@@ -151,23 +148,6 @@ cron = Cronometro(root)
 
 from despertador import Despertador
 alarm = Despertador(root, get_time_func)
-```
-
----
-
-## 🧩 Estructura del Código
-
-```
-tkinder-reloj/
-│
-├── main.py             # Punto de entrada principal
-├── interfaz.py         # GUI principal, organiza pestañas
-├── cronometro.py       # Lógica y vista del cronómetro
-├── despertador.py      # Manejo de alarmas
-├── assets/             # Capturas de pantalla y recursos visuales
-├── requirements.txt    # Dependencias
-└── README.md           # Documentación
-```
 
 ---
 
