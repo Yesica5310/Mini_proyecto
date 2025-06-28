@@ -28,6 +28,7 @@ def cambiar_formato_automatico():
 
 reloj.place(relx=0.5, rely=0.5, anchor='center')
 
+
 cambiar_formato_automatico()
 hora()
 ventana.mainloop()
