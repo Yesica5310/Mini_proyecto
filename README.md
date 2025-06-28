@@ -44,7 +44,7 @@ Proyecto tkinter, modelo de reloj digital
 
 - Python 3.10 o superior
 - Tkinter (incluido por defecto)
-- pytz (`pip install pytz`)
+- pytz (`pip install pygame`)
 
 ---
 
@@ -53,7 +53,7 @@ Proyecto tkinter, modelo de reloj digital
 ```bash
 git clone https://github.com/Yesica5310/Mini_proyecto.git
 cd Reloj Funcional
-pip install -r requirements.txt
+pip install pygame
 python reloj_funcional.py
 
 🧩 Estructura del código
@@ -73,8 +73,6 @@ reloj_funcional.py: Punto de entrada principal
 * [Requisitos](#requisitos)
 * [Instalación](#instalación)
 * [Uso](#uso)
-* [Uso de Módulos](#uso-de-módulos)
-* [Estructura del Código](#estructura-del-código)
 * [To-Do / Mejoras Futuras](#to-do--mejoras-futuras)
 * [Autores](#autores)
 * [Licencia](#licencia)
@@ -135,19 +133,6 @@ python reloj_funcional.py
 * Cambiar entre pestañas de reloj, cronómetro y despertador.
 * Usar botones en cronómetro para iniciar, pausar y registrar laps.
 * En el despertador, seleccionar hora y guardar; se puede activar/desactivar.
-
----
-
-## 🔌 Uso de Módulos
-
-Puedes importar componentes individuales para integrarlos en otros proyectos:
-
-```python
-from cronometro import Cronometro
-cron = Cronometro(root)
-
-from despertador import Despertador
-alarm = Despertador(root, get_time_func)
 
 ---
 
