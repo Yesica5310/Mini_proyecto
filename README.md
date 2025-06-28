@@ -4,7 +4,7 @@ Proyecto tkinter, modelo de reloj digital
 
 # 🕒 TKinder Reloj
 
-![Vista del reloj](reloj.png)
+![Vista del reloj](Imagenes/reloj.png)
 
 **TKinder Reloj** es una aplicación de escritorio en Python con Tkinter que ofrece reloj digital en tiempo real, cronómetro con registro de laps y un sistema de alarmas configurable.
 
@@ -34,9 +34,9 @@ Proyecto tkinter, modelo de reloj digital
 ## 📸 Capturas de Pantalla
 
 ### Reloj Digital
-![Reloj digital](reloj.png)
-![Cronómetro](cronometro.png)
-![Despertador](alarma.png)
+![Reloj digital](Imagenes/reloj.png)
+![Cronómetro](Imagenes/cronometro.png)
+![Despertador](Imagenes/alarma.png)
 
 ---
 
@@ -44,7 +44,7 @@ Proyecto tkinter, modelo de reloj digital
 
 - Python 3.10 o superior
 - Tkinter (incluido por defecto)
-- pytz (`pip install pygame`)
+- pygame (`pip install pygame`)
 
 ---
 
@@ -60,7 +60,7 @@ python reloj_funcional.py
 reloj_funcional.py: Punto de entrada principal
 # 🕒 TKinder Reloj
 
-![Vista del reloj](reloj.png)
+![Vista del reloj](Imagenes/reloj.png)
 
 **TKinder Reloj** es una aplicación de escritorio en Python con Tkinter que ofrece reloj digital en tiempo real, cronómetro con registro de laps y un sistema de alarmas configurable. Desarrollado con enfoque modular, ideal para aprendizaje, práctica profesional o como base para proyectos mayores.
 
@@ -94,15 +94,15 @@ reloj_funcional.py: Punto de entrada principal
 
 ### Reloj Digital
 
-![Reloj digital](reloj.png)
+![Reloj digital](Imagenes/reloj.png)
 
 ### Cronómetro
 
-![Cronómetro](cronometro.png)
+![Cronómetro](Imagenes/cronometro.png)
 
 ### Despertador
 
-![Despertador](alarma.png)
+![Despertador](Imagenes/alarma.png)
 
 ---
 
